@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "cryptocurrency-py"
+version = "0.0.1"
+description = ""
+authors = ["nukopy <nukopy@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiohttp = "^3.9.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.14"
+mypy = "^1.8.0"
+pytest = "^8.0.0"
+pytest-cov = "^4.1.0"
+ipython = "^8.20.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
